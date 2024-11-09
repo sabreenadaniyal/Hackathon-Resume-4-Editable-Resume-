@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+
+</head>
+<link rel="stylesheet" href="main.css">
+
+<body>
+    <h1 style="color: #000;margin-top:0px;font-size: xx-large;"> Static Resume Builder </h1> <br>
+    <div class="resume-container">
+
+        <!--left section-->
+        <div class="left">
+            <img width="170px" height="170px" style="border-radius: 100%; margin-top: 10px;" src=""
+                alt="profile picture" id="profile-picture" />
+            <h1><span id="firstName"></span></h1>
+            <h2></h2>
+            <h3><span id="profession"></span></h3>
+
+            <section id="CONTACT">
+                <h4>CONTACT</h4> <br>
+
+                <img width="22px" height="22px" src="phone.png" alt="phone" />
+                <span id="resumeTel"></span> <br>
+
+
+                <img width="22px" height="22px" src="mail.png" alt="mail" />
+                <span id="resumeMail"></span> <br>
+
+
+                <img width="22px" height="22px" src="home.png" alt="home" />
+                <span id="resumeHome"></span>
+            </section>
+
+            <section id="SKILLS">
+                <h4>SKILLS</h4> <br>
+                <span id="resumeSkills"></span>
+            </section>
+
+            <section id="LANGUAGES">
+                <h4>LANGUAGES</h4> <br>
+                <span id="resumeLang"></span>
+            </section>
+        </div>
+
+        <!--right section-->
+        <div class="right">
+
+            <div class="container">
+                <div id="About me">
+                    <h4>ABOUT ME</h4> <br>
+                    <span style="color: darkgray;" id="resumeAbout"></span>
+                </div> <br> <br> <br>
+
+                <section id="EXPERIENCE">
+                    <h4>EXPERIENCE</h4> <br>
+                    <span style="color: #C4B456; margin-left: 56px;" id="resumeExp"></span>
+                </section> <br>
+
+                <section id="EDUCATION">
+                    <h4>EDUCATION</h4> <br>
+                    <div>
+                        <h6><span id="uniYear1"></span>
+                            <h6>
+                                <span style="color: #454B1B;" id="uniName1"></span><br> <br>
+
+                                <h6><span id="collYear2"></span></h6>
+                                <span style="color: #454B1B; margin-left: 56px; font-weight: bold;"
+                                    id="collName2"></span> <br> <br>
+
+                                <h6><span id="schYear3"></span></h6>
+                                <span style="color: #454B1B; margin-left: 56px; font-weight: bold;"
+                                    id="schName3"></span></h4>
+                    </div>
+                </section> <br>
+
+                <section id="HOBBIES">
+                    <h4>HOBBIES</h4> <br>
+                    <span style="color:#C4B456; margin-left: 56px;" id="resumeHobby"></span>
+                </section>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+        <button id="toggle-skills">Skills</button>
+        <button style="margin-left: 8px;margin-top: 25px;" id="editable-resume">Editable</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+
+
+</html>
